@@ -1,14 +1,11 @@
 <%@ page language="java" contentType="text/html"%>
-<%@ page import="java.text.,java.util." %>
-<HTML>
-<HEAD>
-<TITLE>My Picture from Ashdod Port</TITLE>
-</HEAD>
-<BODY BGCOLOR="FF3333">
-<CENTER>
-<H2>My Picture from Ashdod Port :)</HH2H>
-<p>This is a photo from 2020 ! ".</p>
-<img src="student.jpg" width = "600" height = "600" alt= ""/>
-</CENTER>
-</BODY>
-</HTML>
+<%@ page import="java.text.*,java.util.*" %>
+<html>
+<head>
+<title>Date JSP</title>
+</head>
+<% SimpleDateFormat sdf=new SimpleDateFormat("MM/dd/yyyy"); %>
+<body>
+<h1>Welcome to Tomcat! Today is </h1>
+</body>
+</html>
