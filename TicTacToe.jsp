@@ -8,7 +8,7 @@
 <CENTER>
 <H2>My Picture from Ashdod Port :)</HH2H>
 <p>This is a photo from 2020 ! ".</p>
-<img src="NIK_3889.JPG" width = "1500" height = "800" alt= ""/>
+<img src="student.jpg" width = "600" height = "600" alt= ""/>
 </CENTER>
 </BODY>
 </HTML>
