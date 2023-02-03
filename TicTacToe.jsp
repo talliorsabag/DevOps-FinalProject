@@ -7,20 +7,13 @@
 <style>
 table, td {
     border: 1px solid black;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
-    font-size: 30px;
-}
-.center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
 }
 </style>
 </head>
 <body>
 
-<div class="center">
 <h2>Tic Tac Toe</h2>
 
 <%
@@ -85,8 +78,6 @@ for (int i = 0; i < 3; i++) {
 if (board[0][0].equals(board[1][1]) && board[0][0].equals(board[2][2])
         && !board[0][0].equals("")) {
     winner = board[0][0];
-}
-
 }
 if (board[0][2].equals(board[1][1]) && board[0][2].equals(board[2][0])
         && !board[0][2].equals("")) {
