@@ -7,14 +7,14 @@
 <style>
 table, td {
     border: 1px solid black;
-    padding: 40px;
+    padding: 700px;
     text-align: center;
-    font-size: 30px;
+    font-size: 60px;
 }
 .center {
     margin: auto;
-    width: 50%;
-    padding: 10px;
+    width: 75%;
+    padding: 20px;
 }
 </style>
 </head>
